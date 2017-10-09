@@ -1,6 +1,6 @@
 /*-----------------------------------------------------------------------------------
-	    arc
-        Built with Blocs
+	    Associate Racquetball Club
+        David King
 -----------------------------------------------------------------------------------*/
 
 body{
@@ -16,6 +16,11 @@ a:hover{text-decoration: none; cursor:pointer;}
 a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safari */
 
 #page-loading-blocs-notifaction{position: fixed;top: 0;bottom: 0;width: 100%;z-index:100000;background:#FFFFFF url("img/pageload-spinner.gif") no-repeat center center;}
+
+@font-face {
+    font-family:"Brotherhood";
+    src:url('fonts/Brotherhood_Script.ttf')
+}
 
 /* = Blocs
 -------------------------------------------------------------- */
@@ -322,7 +327,7 @@ a[data-lightbox]{
 }
 a[data-lightbox]:hover::before{
 	content:"+";
-	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
+	font-family: "Montserrat", Helvetica;
 	font-size:32px;
 	width:50px;
 	height:50px;
@@ -389,15 +394,15 @@ a[data-lightbox]:hover img{
 -------------------------------------------------------------- */
 
 h1,h2,h3,h4,h5,h6,p,label,.btn,a{
-	font-family:"Helvetica";
+	font-family:"Montserrat";
 }
 .container{
 	max-width:1170px;
 }
 .lg-header{
-	font-family:"Montserrat";
+	font-family:"Brotherhood";
 	font-weight:100;
-	font-size:40px;
+	font-size:80px;
 	color:#000000!important;
 }
 .more-link{
@@ -444,16 +449,26 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .logo{
 	font-size:104px;
 	color:#454545!important;
+    font-family: "Brotherhood";
 }
 .sub-logo{
 	font-family:"Montserrat";
-	font-weight:200;
+	font-weight:100;
 	font-size:32px;
 	color:#454545!important;
+}
+.logo-line {
+    width:50%;
+    border: solid .5px !important;
+    margin-top:20px!important;
 }
 .house-pic{
 	width:75%;
 	background-position:left center;
+}
+.table {
+    width:100%;
+    font-family:"Montserrat";
 }
 
 /* = Colour
