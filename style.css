@@ -676,7 +676,10 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	font-size:18px;
 }
 .lg-header{
-	font-size:28px;
+	font-size:40px;
 }
+    .more-link{
+        font-size:18px;
+    }
  }
 
